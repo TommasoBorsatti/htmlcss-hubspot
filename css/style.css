@@ -15,9 +15,14 @@ body{
   clear: both;
 }
 
+
 .wrapper{
   max-width: 1080px;
   margin: auto;
+}
+
+.small.wrapper{
+  max-width: 850px;
 }
 
 /* regole universali css */
@@ -44,6 +49,7 @@ a.btn {
   border-radius: 5px;
   margin: 0 6px;
   text-align: center;
+  text-decoration: none;
 }
 
 a.btn.plain{
@@ -55,6 +61,12 @@ a.btn.plain.big{
   margin: 0 0;
   padding: 20px 8px;
   min-width: 200px;
+}
+
+.col .btn.plain.big{
+  display:inline-block;
+  padding: 20px 4px;
+  min-width: 150px;
 }
 
 /* /regole per bottoni */
@@ -79,6 +91,13 @@ p{
   color: #5a6776;
   line-height: 25px;
 }
+
+h2{
+  font-size: 30px;
+  color: #33475b;
+  font-weight: 700;
+}
+
 /* /typo */
 
 
@@ -158,11 +177,70 @@ div.separatore{
   border-top: 3px solid #33475b;
   border-bottom: 3px solid #33475b;
   background-color: #afebe4;
-  margin-bottom: 25px;
+
 }
 
 /* /regole per sezione header */
 
-/* regole sezione main
+/* regole sezione main */
+
+.wide-container{
+  background-color: #F5F8FA;
+  text-align: center;
+}
+
+.wide-container > .wrapper > img{
+  height: 180px;
+  margin-top: 45px;
+}
+
+.wide-container > .wrapper > p{
+  margin: 25px 0;
+}
+
+main .row{
+  max-width: 1080px;
+  margin: auto;
+  border-radius: 10px;
+  background-color: white;
+  border: 3px solid grey;
+
+}
+
+.col.left{
+  width: 30%;
+  padding: 50px 100px;
+  float: left;
+}
+
+.col.right{
+  width: 70%;
+  padding: 50px 100px 0 0;
+  float: left;
+  text-align: left;
+}
+
+.col > img {
+  width:150px;
+  margin-bottom: 40px;
+}
+
+.col h3{
+  display: inline-block;
+
+}
+
+.col p{
+  margin: 25px 0;
+}
+
+.col hr{
+  display: inline-block;
+  margin-left: 50px;
+  border: solid 1px black;
+  width:400px;
+  vertical-align: middle;
+}
+
 
 /* /regole sezione main */
