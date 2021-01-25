@@ -9,4 +9,114 @@ body{
   font-family: 'Montserrat', sans-serif;
 }
 
+.wrapper{
+  max-width: 1080px;
+  margin: auto;
+}
+
 /* regole universali css */
+
+/* regole per colori di BG */
+
+.cerulean{
+  background-color: #F4F9FD;
+}
+
+.white {
+  background-color: #FFF;
+}
+/* /egole per colori di BG */
+
+/* regole per bottoni */
+
+a.btn {
+  min-width: 100px;
+  padding: 3px 4px;
+  font-size: 12px;
+  color: #FF7A59;
+  border: 1px  solid #FF7A59;
+  border-radius: 5px;
+  margin: 0 6px;
+  text-align: center;
+}
+
+a.btn.plain{
+  color: #FFF;
+  background-color: #FF7A59;
+}
+
+/* /regole per bottoni */
+
+/* typo */
+
+a {
+  font-size: 14px;
+  font-weight: bold;
+  color: #75838f;
+}
+/* /typo */
+
+
+
+/* regole per sezione header */
+
+.nav-bar.cerulean{
+  padding: 25px 0;
+  border-bottom: 2px solid grey;
+}
+
+header ul, header li, header a{
+  display: inline-block;
+}
+
+header a{
+  text-decoration: none;
+  color: #556877;
+  margin: 0 3px;
+}
+
+.nav-bar.cerulean .left-part{
+  width: 69%;
+}
+
+.nav-bar.cerulean .right-part{
+  width: 30%;
+  text-align: right;
+}
+
+.nav-search{
+  color: #08A7BF;
+}
+
+.nav-bar.white{
+  padding: 25px 0;
+
+}
+
+.nav-bar.white .left-part{
+  width: 60%;
+  display: inline-block;
+}
+
+.nav-bar.white .right-part{
+  width: 39%;
+  text-align: right;
+}
+
+section.hero{
+  background-color: #FFF2EE;
+  background-image: url(../img/jumbotron.png);
+  height: 620px;
+  background-position: 100% -14%;
+  background-repeat: no-repeat;:
+}
+
+div.separatore{
+  padding: 30px 0px;
+  border-top: 3px solid #33475b;
+  border-bottom: 3px solid #33475b;
+  background-color: #afebe4;
+  margin-bottom: 25px;
+}
+
+/* /regole per sezione header */
