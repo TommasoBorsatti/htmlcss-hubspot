@@ -9,6 +9,12 @@ body{
   font-family: 'Montserrat', sans-serif;
 }
 
+.clearfix::after{
+  content: "";
+  display:block;
+  clear: both;
+}
+
 .wrapper{
   max-width: 1080px;
   margin: auto;
@@ -31,7 +37,7 @@ body{
 
 a.btn {
   min-width: 100px;
-  padding: 3px 4px;
+  padding: 8px 4px;
   font-size: 12px;
   color: #FF7A59;
   border: 1px  solid #FF7A59;
@@ -45,6 +51,12 @@ a.btn.plain{
   background-color: #FF7A59;
 }
 
+a.btn.plain.big{
+  margin: 0 0;
+  padding: 20px 8px;
+  min-width: 200px;
+}
+
 /* /regole per bottoni */
 
 /* typo */
@@ -53,6 +65,19 @@ a {
   font-size: 14px;
   font-weight: bold;
   color: #75838f;
+}
+
+h1{
+  font-size: 40px;
+  color: #33475b;
+  font-weight: 700;
+}
+
+p{
+  font-size: 12px;
+  font-weight: 700;
+  color: #5a6776;
+  line-height: 25px;
 }
 /* /typo */
 
@@ -108,7 +133,24 @@ section.hero{
   background-image: url(../img/jumbotron.png);
   height: 620px;
   background-position: 100% -14%;
-  background-repeat: no-repeat;:
+  background-repeat: no-repeat;
+}
+
+.hero-wrapper{
+  max-width: 1080px;
+  margin: auto;
+  position: relative;
+  height: 620px;
+}
+
+.position-box{
+  width: 45%;
+  position: absolute;
+  top: 10%;
+}
+
+.position-box > p{
+  margin: 20px 0;
 }
 
 div.separatore{
@@ -120,3 +162,7 @@ div.separatore{
 }
 
 /* /regole per sezione header */
+
+/* regole sezione main
+
+/* /regole sezione main */
