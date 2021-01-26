@@ -319,6 +319,67 @@ span.checklist{
   padding-top: 40px;
 }
 
+.wide-container.blue p{
+  padding-bottom: 40px;
+}
+
+.wide-container.blue .row {
+  padding:0;
+}
+
+.wide-container.blue .row.bottom {
+  padding-bottom: 150px;
+}
+
+
+.col.vert.tab{
+  width: calc(100% / 4);
+  border-radius: 0px;
+  background-color: transparent;
+  box-shadow: 0 0 0;
+  padding-bottom:20px;
+}
+
+.col.vert.tab.top{
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.col.vert.tab{
+  border-right: 1px solid white;
+}
+
+.col.vert.tab.top:last-child, .col.vert.tab:last-child{
+  border-right: 0px;
+}
+
+.wide-container.blue span{
+  display: block;
+  padding: 5px 0;
+  color: white;
+  font-size: 12px;
+}
+
+.wide-container.blue span.big{
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.wide-container.blue img{
+  display: block;
+  height: 60px;
+  padding: 12px 0;
+  margin: auto;
+}
+
+.color-change{
+}
+
+.icon{
+  font-size: 30px;
+  padding: 10px 0;
+
+}
 
 /* /regole sezione main */
 
@@ -334,6 +395,6 @@ span.checklist{
 }
 
 .blue{
-  background-color: #00B8AA;
+  background-image: linear-gradient(45deg,#00a4bd,#00bda5)
 }
 /* /egole per colori di BG */
