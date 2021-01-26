@@ -27,21 +27,12 @@ body{
 
 /* regole universali css */
 
-/* regole per colori di BG */
 
-.cerulean{
-  background-color: #F4F9FD;
-}
-
-.white {
-  background-color: #FFF;
-}
-/* /egole per colori di BG */
 
 /* regole per bottoni */
 
 a.btn {
-  min-width: 100px;
+  min-width: 60px;
   padding: 8px 4px;
   font-size: 12px;
   color: #FF7A59;
@@ -93,11 +84,28 @@ p{
 }
 
 h2{
-  font-size: 30px;
+  font-size: 28px;
   color: #33475b;
   font-weight: 700;
 }
 
+.wide-container.blue h2, .wide-container.blue p{
+  color: #fff;
+}
+h3{
+  color: #33475b;
+}
+
+hr{
+  display: inline-block;
+  border: solid 1px #899397;
+  background-color: #899397;
+}
+
+span{
+  color: #33475b;
+  font-weight: bold;
+}
 /* /typo */
 
 
@@ -121,11 +129,13 @@ header a{
 
 .nav-bar.cerulean .left-part{
   width: 69%;
+  line-height: 20px;
 }
 
 .nav-bar.cerulean .right-part{
   width: 30%;
   text-align: right;
+  line-height: 20px;
 }
 
 .nav-search{
@@ -140,11 +150,14 @@ header a{
 .nav-bar.white .left-part{
   width: 60%;
   display: inline-block;
+  vertical-align: middle;
 }
 
 .nav-bar.white .right-part{
   width: 39%;
   text-align: right;
+  line-height: 34px;
+  vertical-align: middle;
 }
 
 section.hero{
@@ -203,20 +216,22 @@ main .row{
   margin: auto;
   border-radius: 10px;
   background-color: white;
-  border: 3px solid grey;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
 
 }
 
-.col.left{
+.col {
+  float: left;
+}
+.col.hor.left{
   width: 30%;
   padding: 50px 100px;
-  float: left;
 }
 
-.col.right{
+.col.hor.right{
   width: 70%;
   padding: 50px 100px 0 0;
-  float: left;
   text-align: left;
 }
 
@@ -227,6 +242,7 @@ main .row{
 
 .col h3{
   display: inline-block;
+  margin-bottom: 25px;
 
 }
 
@@ -234,13 +250,90 @@ main .row{
   margin: 25px 0;
 }
 
-.col hr{
-  display: inline-block;
+.col.hor hr{
   margin-left: 50px;
-  border: solid 1px black;
   width:400px;
   vertical-align: middle;
 }
 
+.checker{
+  color: #FF7A59;
+  margin: 0px 15px;
+}
+
+span .checker:first-child{
+  margin: 0px 15px 0px 0px ;
+}
+
+.row.clear{
+  background-color: transparent;
+  box-shadow: 0 0 0;
+  padding-bottom: 50px;
+  margin-bottom: 0;
+}
+
+.col.vert{
+  width: calc((100% - 100px) / 3 );
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+
+
+}
+
+.col.vert.left, .col.vert.center{
+ margin-right: 50px;
+}
+
+.col.vert.left > img, .col.vert.center  > img, .col.vert.right > img{
+  margin: 30px 0px;
+  height: 120px;
+}
+
+.col.vert.left hr, .col.vert.center hr, .col.vert.right hr{
+  width:75%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.col.vert.left p, .col.vert.center p, .col.vert.right p{
+  padding: 0 25px;
+  margin-bottom: 40px;
+}
+
+.col.vert.left h3, .col.vert.center h3, .col.vert.right h3{
+  display: block;
+}
+
+span.checklist{
+  text-align: left;
+  display: block;
+  padding-left: 35px;
+}
+
+.col.vert.left .btn, .col.vert.center .btn, .col.vert.right .btn{
+  margin: 50px 0;
+}
+
+.wide-container.blue h2{
+  padding-top: 40px;
+}
+
 
 /* /regole sezione main */
+
+/* regole per colori di BG */
+
+.cerulean{
+  background-color: #F4F9FD;
+}
+
+.white {
+  background-color: #FFF;
+
+}
+
+.blue{
+  background-color: #00B8AA;
+}
+/* /egole per colori di BG */
