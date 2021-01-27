@@ -373,7 +373,9 @@ span.checklist{
 }
 
 .wide-container.white .row{
-  padding: 50px 0;
+  padding: 50px 0 0 0;
+  margin-bottom: 0;
+  box-shadow: 0 0 0;
 
 }
 
@@ -382,6 +384,8 @@ span.checklist{
   margin-right:250px;
   padding-left: 30px;
   text-align: left;
+  box-shadow: 0 0 0;
+
 
 
 }
@@ -389,6 +393,7 @@ span.checklist{
 .wide-container.white .col.vert.right{
   width: 50%;
   padding-top: 0 0;
+  box-shadow: 0 0 0;
 
 }
 
@@ -434,6 +439,33 @@ h2.high-light{
   text-align: left;
   padding-left: 30px;
 }
+
+#col-left-finale {
+  padding:  0px;
+  width: 40%;
+  margin-right: 0px;
+}
+
+#col-left-finale p{
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+#col-left-finale .btn.plain.big{
+  margin: 10px 0;
+}
+
+#col-rightt-finale {
+  padding:  0px;
+  width: 50%;
+}
+
+#woman{
+  width:60%;
+  height:60%;
+  margin-left: 70%;
+}
+
 /* /regole sezione main */
 
 /* regole per colori di BG */
