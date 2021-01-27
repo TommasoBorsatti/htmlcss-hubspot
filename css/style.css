@@ -25,6 +25,11 @@ body{
   max-width: 850px;
 }
 
+i.icon {
+  font-size: 18px;
+  margin-right: 18px;
+}
+
 /* regole universali css */
 
 
@@ -58,6 +63,14 @@ a.btn.plain.big{
   display:inline-block;
   padding: 20px 4px;
   min-width: 150px;
+}
+
+a.btn.plain.footer{
+  background-color: #dadee0;
+  border-color: #dadee0;
+  color: #32495B;
+  margin: 0px 0;
+  padding: 8px 22px;
 }
 
 /* /regole per bottoni */
@@ -105,6 +118,10 @@ hr{
 span{
   color: #33475b;
   font-weight: bold;
+}
+
+footer h4{
+  color: #fff;
 }
 /* /typo */
 
@@ -372,6 +389,10 @@ span.checklist{
   margin: auto;
 }
 
+.wide-container.white {
+  padding-bottom: 15px;
+}
+
 .wide-container.white .row{
   padding: 50px 0 0 0;
   margin-bottom: 0;
@@ -385,9 +406,6 @@ span.checklist{
   padding-left: 30px;
   text-align: left;
   box-shadow: 0 0 0;
-
-
-
 }
 
 .wide-container.white .col.vert.right{
@@ -461,12 +479,52 @@ h2.high-light{
 }
 
 #woman{
-  width:60%;
-  height:60%;
+  width:55%;
+  height:55%;
   margin-left: 70%;
+  padding-bottom: 30px;
 }
 
 /* /regole sezione main */
+
+/* regole footer */
+
+
+footer .col{
+  width: calc(100% / 4);
+  text-align: left;
+  padding-right: 50px;
+  padding-top: 30px;
+}
+
+footer .col:last-child{
+  padding-right: 0px;
+}
+
+footer h4{
+  margin-bottom: 10px;
+}
+
+footer ul{
+  list-style: none;
+}
+
+footer li{
+  padding: 6px 0;
+  font-size: 13px;
+  font-weight: 600;
+  color: #cbd6e2;
+}
+
+footer li:nth-child(6){
+  padding: 20px 0;
+}
+
+footer a{
+  text-decoration: none;
+  color: #cbd6e2;
+}
+/* /regole footer */
 
 /* regole per colori di BG */
 
@@ -481,5 +539,9 @@ h2.high-light{
 
 .blue{
   background-image: linear-gradient(45deg,#00a4bd,#00bda5)
+}
+
+.grey{
+  background-color: #32495B;
 }
 /* /egole per colori di BG */
