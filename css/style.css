@@ -489,15 +489,18 @@ h2.high-light{
 
 /* regole footer */
 
+.wide-container.grey{
+  padding-bottom: 40px;
+}
 
-footer .col{
+.footer-row .col{
   width: calc(100% / 4);
   text-align: left;
-  padding-right: 50px;
+  padding-right: 20px;
   padding-top: 30px;
 }
 
-footer .col:last-child{
+.footer-row .col:last-child{
   padding-right: 0px;
 }
 
@@ -510,13 +513,14 @@ footer ul{
 }
 
 footer li{
-  padding: 6px 0;
+  padding: 9px 0;
   font-size: 13px;
   font-weight: 600;
   color: #cbd6e2;
+  display: inline-block;
 }
 
-footer li:nth-child(6){
+.footer-row li:nth-child(6){
   padding: 20px 0;
 }
 
@@ -524,6 +528,65 @@ footer a{
   text-decoration: none;
   color: #cbd6e2;
 }
+
+.footer-row {
+  padding-bottom: 45px;
+}
+
+.language-box{
+  width: 44%;
+  margin: auto;
+}
+
+.language-box li{
+  padding-right: 15px;
+  padding-bottom: 10px;
+}
+
+footer hr{
+  width:100%;
+  border: 1px thin white;
+  background-color: white;
+  vertical-align: top;
+  margin-bottom: 30px;
+}
+
+.footer-row-2 .col.left{
+  float: left;
+  width: 30%;
+  text-align: left;
+
+}
+
+.footer-row-2 .col.right{
+  float: right;
+  width: 30%;
+  text-align: right;
+  padding: 0;
+}
+
+.footer-row-2 img{
+  height: 28px;
+  position: relative;
+  right:8%;
+  margin-bottom: 0;
+}
+
+.footer-row-2 .col.left span{
+  color: #cbd6e2;
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.footer-row-2 li{
+  padding-right: 20px;
+}
+
+.footer-row-2 li:last-child{
+  padding-right: 0;
+}
+
 /* /regole footer */
 
 /* regole per colori di BG */
