@@ -15,7 +15,6 @@ body{
   clear: both;
 }
 
-
 .wrapper{
   max-width: 1080px;
   margin: auto;
@@ -105,6 +104,7 @@ h2{
 .wide-container.blue h2, .wide-container.blue p{
   color: #fff;
 }
+
 h3{
   color: #33475b;
 }
@@ -123,6 +123,7 @@ span{
 footer h4{
   color: #fff;
 }
+
 /* /typo */
 
 
@@ -161,7 +162,6 @@ header a{
 
 .nav-bar.white{
   padding: 25px 0;
-
 }
 
 .nav-bar.white .left-part{
@@ -207,12 +207,11 @@ div.separatore{
   border-top: 3px solid #33475b;
   border-bottom: 3px solid #33475b;
   background-color: #afebe4;
-
 }
 
 /* /regole per sezione header */
 
-/* regole sezione main */
+/* regole sezione main iniziale*/
 
 .wide-container{
   background-color: #F5F8FA;
@@ -235,7 +234,6 @@ main .row{
   background-color: white;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
   margin-bottom: 40px;
-
 }
 
 .col {
@@ -260,7 +258,6 @@ main .row{
 .col h3{
   display: inline-block;
   margin-bottom: 25px;
-
 }
 
 .col p{
@@ -294,8 +291,6 @@ span .checker:first-child{
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
-
-
 }
 
 .col.vert.left, .col.vert.center{
@@ -332,6 +327,10 @@ span.checklist{
   margin: 50px 0;
 }
 
+/* /regole per sezione main iniziale */
+
+/* regole per sezione main blu */
+
 .wide-container.blue h2{
   padding-top: 40px;
 }
@@ -347,7 +346,6 @@ span.checklist{
 .wide-container.blue .row.bottom {
   padding-bottom: 100px;
 }
-
 
 .col.vert.tab{
   width: calc(100% / 4);
@@ -389,6 +387,10 @@ span.checklist{
   margin: auto;
 }
 
+/* /regole per sezione main blu */
+
+/* regole per sezione main bianca */
+
 .wide-container.white {
   padding-bottom: 15px;
 }
@@ -397,7 +399,6 @@ span.checklist{
   padding: 50px 0 0 0;
   margin-bottom: 0;
   box-shadow: 0 0 0;
-
 }
 
 .wide-container.white .col.vert.left{
@@ -412,7 +413,6 @@ span.checklist{
   width: 50%;
   padding-top: 0 0;
   box-shadow: 0 0 0;
-
 }
 
 .wide-container.white .col.vert.right img{
@@ -421,7 +421,6 @@ span.checklist{
   height: 15px;
   padding: 0 3px;
   margin: 10px 0px;
-
 }
 
 #purple{
@@ -485,7 +484,7 @@ h2.high-light{
   padding-bottom: 30px;
 }
 
-/* /regole sezione main */
+/* /regole per sezione main bianca */
 
 /* regole footer */
 
@@ -517,7 +516,7 @@ footer li{
   font-size: 13px;
   font-weight: 600;
   color: #cbd6e2;
-  display: inline-block;
+  display: block;
 }
 
 .footer-row li:nth-child(6){
@@ -541,6 +540,7 @@ footer a{
 .language-box li{
   padding-right: 15px;
   padding-bottom: 10px;
+  display: inline-block;
 }
 
 footer hr{
@@ -555,7 +555,6 @@ footer hr{
   float: left;
   width: 30%;
   text-align: left;
-
 }
 
 .footer-row-2 .col.right{
@@ -581,6 +580,7 @@ footer hr{
 
 .footer-row-2 li{
   padding-right: 20px;
+  display: inline-block;
 }
 
 .footer-row-2 li:last-child{
@@ -597,7 +597,6 @@ footer hr{
 
 .white {
   background-color: #FFF;
-
 }
 
 .blue{
@@ -607,4 +606,5 @@ footer hr{
 .grey{
   background-color: #32495B;
 }
+
 /* /egole per colori di BG */
